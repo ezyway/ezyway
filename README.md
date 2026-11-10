@@ -46,6 +46,38 @@ Based in **Bangalore, India**.
 ## Contribution snake
 
 <!--START_SECTION:snake-stats-->
+| Contributions (last year) | Value |
+|---|---:|
+| Total contributions | **291** |
+| Active days | **36** / 367 |
+| Average per day | **0.79** |
+| Busiest day | **47** (2026-08-14) |
+| Busiest week | **48** (2026-08-09 → 2026-08-15) |
+| Current streak | **2** day(s) |
+| Longest streak | **3** day(s) |
+
+| Breakdown (last year) | Value |
+|---|---:|
+| Commits | **215** |
+| Pull requests opened | **1** |
+| Pull request reviews | **0** |
+| Issues opened | **0** |
+| Restricted contributions | **70** |
+
+| PR / Issue activity | Value |
+|---|---:|
+| Pull requests merged (all-time) | **2** |
+| Pull requests open | **0** |
+| Issues closed (all-time) | **0** |
+| Issues open | **0** |
+
+| Repo impact & reach | Value |
+|---|---:|
+| Stars received (owned, non-fork) | **6** |
+| Forks received (owned, non-fork) | **0** |
+| Public repositories (owned, non-fork) | **18** |
+| Followers | **6** |
+| Following | **10** |
 <!--END_SECTION:snake-stats-->
 
 <picture>
