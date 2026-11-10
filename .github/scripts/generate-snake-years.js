@@ -33,7 +33,7 @@ async function getYearsData() {
   const now = new Date();
   const endYear = now.getUTCFullYear();
   const years = [];
-  for (let y = startYear; y <= endYear; y++) {
+  for (let y = endYear; y >= startYear; y--) {
     const from = `${y}-01-01T00:00:00Z`;
     const toDate = (y === endYear) ? now : new Date(Date.UTC(y, 11, 31, 23, 59, 59));
     const to = toDate.toISOString();
