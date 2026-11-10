@@ -58,9 +58,9 @@ Based in **Bangalore, India**.
 ## Recent activity
 
 <!--START_SECTION:activity-->
-- 🌱 Created branch `main` in [ezyway/ezyway](https://github.com/ezyway/ezyway)
-- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`dev`)
+- 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
+- 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
+- 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
+- 🚀 Pushed to [ezyway/ezyway.github.io](https://github.com/ezyway/ezyway.github.io) (`main`)
 - 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`main`)
-- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`dev`)
-- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`dev`)
 <!--END_SECTION:activity-->
