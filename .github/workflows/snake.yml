@@ -12,13 +12,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake
-        uses: Platane/snk/svg-only@v3
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ezyway
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          node-version: '22'
+
+      - name: Generate yearly contribution snakes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ezyway
+        run: node .github/scripts/generate-snake-years.js dist
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

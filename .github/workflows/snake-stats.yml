@@ -83,41 +83,12 @@ jobs:
             const forks = owned.reduce((s, r) => s + (r.forks_count || 0), 0);
             const publicRepos = owned.length;
 
-            const lines = [
-              '| Contributions (last year) | Value |',
-              '|---|---:|',
-              `| Total contributions | **${total}** |`,
-              `| Active days | **${activeDays}** / ${days.length} |`,
-              `| Average per day | **${avgPerDay}** |`,
-              `| Busiest day | **${busiestDay.contributionCount}** (${busiestDay.date}) |`,
-              `| Busiest week | **${busiestWeek.sum}** (${busiestWeek.start} → ${busiestWeek.end}) |`,
-              `| Current streak | **${current}** day(s) |`,
-              `| Longest streak | **${longest}** day(s) |`,
-              '',
-              '| Breakdown (last year) | Value |',
-              '|---|---:|',
-              `| Commits | **${cc.totalCommitContributions}** |`,
-              `| Pull requests opened | **${cc.totalPullRequestContributions}** |`,
-              `| Pull request reviews | **${cc.totalPullRequestReviewContributions}** |`,
-              `| Issues opened | **${cc.totalIssueContributions}** |`,
-              `| Restricted contributions | **${cc.restrictedContributionsCount}** |`,
-              '',
-              '| PR / Issue activity | Value |',
-              '|---|---:|',
-              `| Pull requests merged (all-time) | **${data.mergedPRs.issueCount}** |`,
-              `| Pull requests open | **${data.openPRs.issueCount}** |`,
-              `| Issues closed (all-time) | **${data.closedIssues.issueCount}** |`,
-              `| Issues open | **${data.openIssues.issueCount}** |`,
-              '',
-              '| Repo impact & reach | Value |',
-              '|---|---:|',
-              `| Stars received (owned, non-fork) | **${stars}** |`,
-              `| Forks received (owned, non-fork) | **${forks}** |`,
-              `| Public repositories (owned, non-fork) | **${publicRepos}** |`,
-              `| Followers | **${user.followers.totalCount}** |`,
-              `| Following | **${user.following.totalCount}** |`,
-            ];
-            const content = lines.join('\n');
+            const content = [
+              `**Contributions (last year):** ${total} total · ${activeDays}/${days.length} active days · ${avgPerDay}/day · busiest ${busiestDay.contributionCount} (${busiestDay.date}) · busiest week ${busiestWeek.sum} (${busiestWeek.start}→${busiestWeek.end}) · ${current}d current streak · ${longest}d longest`,
+              `**Breakdown:** ${cc.totalCommitContributions} commits · ${cc.totalPullRequestContributions} PRs opened · ${cc.totalPullRequestReviewContributions} reviews · ${cc.totalIssueContributions} issues opened · ${cc.restrictedContributionsCount} restricted`,
+              `**PR/Issues:** ${data.mergedPRs.issueCount} merged · ${data.openPRs.issueCount} PRs open · ${data.closedIssues.issueCount} issues closed · ${data.openIssues.issueCount} issues open`,
+              `**Impact & reach:** ⭐ ${stars} stars · ${forks} forks · ${publicRepos} repos · ${user.followers.totalCount} followers · ${user.following.totalCount} following`,
+            ].join(' | ');
             const readmePath = 'README.md';
             const readme = fs.readFileSync(readmePath, 'utf8');
             const start = '<!--START_SECTION:snake-stats-->';
