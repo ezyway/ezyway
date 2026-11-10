@@ -55,8 +55,8 @@ Based in **Bangalore, India**.
 
 <!--START_SECTION:activity-->
 - 🌱 Created branch `main` in [ezyway/ezyway](https://github.com/ezyway/ezyway)
-- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon): [``](https://github.com/ezyway/RezMon) pushed commits
-- 🚀 Pushed to [ezyway/cowin-vaccine-slot-notifier](https://github.com/ezyway/cowin-vaccine-slot-notifier): [``](https://github.com/ezyway/cowin-vaccine-slot-notifier) pushed commits
-- 🚀 Pushed to [ezyway/amd-semiconductors-website-ug](https://github.com/ezyway/amd-semiconductors-website-ug): [``](https://github.com/ezyway/amd-semiconductors-website-ug) pushed commits
-- 🚀 Pushed to [ezyway/dev-tools](https://github.com/ezyway/dev-tools): [``](https://github.com/ezyway/dev-tools) pushed commits
+- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`dev`)
+- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`main`)
+- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`dev`)
+- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`dev`)
 <!--END_SECTION:activity-->
