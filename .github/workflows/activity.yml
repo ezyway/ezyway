@@ -35,13 +35,20 @@ jobs:
               if (ev.type === 'PushEvent') {
                 const commits = (ev.payload && ev.payload.commits) || [];
                 const c = commits[commits.length - 1] || commits[0];
-                const msg = c && c.message ? c.message.split('\n')[0] : 'pushed commits';
-                const sha = c && c.sha ? c.sha.substring(0, 7) : '';
-                const commitUrl = (c && c.sha && repo) ? `https://github.com/${repo}/commit/${c.sha}` : repoUrl;
-                const key = `push:${repo}:${sha}:${msg}`;
+                const ref = ev.payload && ev.payload.ref ? String(ev.payload.ref).replace(/^refs\/heads\//, '') : '';
+                const key = `push:${repo}:${ev.id}`;
                 if (seen.has(key)) continue;
                 seen.add(key);
-                line = `- 🚀 Pushed to [${repo}](${repoUrl}): [\`${sha}\`](${commitUrl}) ${msg}`;
+                if (c && c.sha) {
+                  const msg = c.message ? c.message.split('\n')[0] : 'commit';
+                  const sha = c.sha.substring(0, 7);
+                  const commitUrl = repo ? `https://github.com/${repo}/commit/${c.sha}` : '';
+                  line = `- 🚀 Pushed to [${repo}](${repoUrl}): [\`${sha}\`](${commitUrl}) ${msg}`;
+                } else if (ref) {
+                  line = `- 🚀 Pushed to [${repo}](${repoUrl}) (\`${ref}\`)`;
+                } else {
+                  line = `- 🚀 Pushed to [${repo}](${repoUrl})`;
+                }
               } else if (ev.type === 'PullRequestEvent') {
                 const pr = ev.payload.pull_request;
                 const action = ev.payload.action || 'updated';
