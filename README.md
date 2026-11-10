@@ -31,11 +31,9 @@ Based in **Bangalore, India**.
 ## GitHub stats
 
 <p>
-  <img height="170" alt="GitHub stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ezyway&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" />
   <img height="170" alt="GitHub streak" src="https://streak-stats.demolab.com?user=ezyway&hide_border=true" />
 </p>
 <p>
-  <img height="170" alt="Top languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ezyway&layout=compact&hide_border=true&langs_count=8" />
   <img height="170" alt="Contribution summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ezyway&theme=github" />
 </p>
 
