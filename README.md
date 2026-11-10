@@ -52,6 +52,7 @@ Based in **Bangalore, India**.
 </picture>
 
 <!--START_SECTION:snake-stats-->
+**Contributions (last year):** 292 total · 36/367 active days · 0.80/day · busiest 47 (2026-08-14) · busiest week 48 (2026-08-09→2026-08-15) · 2d current streak · 3d longest | **Breakdown:** 216 commits · 1 PRs opened · 0 reviews · 0 issues opened · 70 restricted | **PR/Issues:** 2 merged · 0 PRs open · 0 issues closed · 0 issues open | **Impact & reach:** ⭐ 6 stars · 0 forks · 18 repos · 6 followers · 10 following
 <!--END_SECTION:snake-stats-->
 
 ## Recent activity
