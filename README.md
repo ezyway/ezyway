@@ -61,6 +61,6 @@ Based in **Bangalore, India**.
 - 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
 - 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
 - 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
-- 🚀 Pushed to [ezyway/ezyway.github.io](https://github.com/ezyway/ezyway.github.io) (`main`)
-- 🚀 Pushed to [ezyway/RezMon](https://github.com/ezyway/RezMon) (`main`)
+- 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
+- 🚀 Pushed to [ezyway/ezyway](https://github.com/ezyway/ezyway) (`main`)
 <!--END_SECTION:activity-->
